@@ -1,0 +1,51 @@
+{"cards":[
+
+    {"vp": 0, "gem": "diamond", "cost":{"emerald":1, "jet":1, "ruby":1, "sapphire":1}},
+    {"vp": 0, "gem": "emerald", "cost":{"diamond":1, "jet":1, "ruby":1, "sapphire":1}},
+    {"vp": 0, "gem": "jet", "cost":{"diamond":1, "emerald":1, "ruby":1, "sapphire":1}},
+    {"vp": 0, "gem": "ruby", "cost":{"diamond":1, "emerald":1, "jet":1, "sapphire":1}},
+    {"vp": 0, "gem": "sapphire", "cost":{"diamond":1, "emerald":1, "jet":1, "ruby":1}},
+
+    {"vp": 0, "gem": "diamond", "cost":{"emerald":2, "jet":1, "sapphire":2}},
+    {"vp": 0, "gem": "emerald", "cost":{"jet":2, "ruby":2, "sapphire":1}},
+    {"vp": 0, "gem": "jet", "cost":{"diamond":2, "ruby":1, "sapphire":2}},
+    {"vp": 0, "gem": "ruby", "cost":{"diamond":2, "emerald":1, "jet":2}},
+    {"vp": 0, "gem": "sapphire", "cost":{"diamond":1, "emerald":2, "ruby":2}},
+
+    {"vp": 0, "gem": "diamond", "cost":{"jet":2, "sapphire":2}},
+    {"vp": 0, "gem": "emerald", "cost":{"ruby":2, "sapphire":2}},
+    {"vp": 0, "gem": "jet", "cost":{"diamond":2, "emerald":2}},
+    {"vp": 0, "gem": "ruby", "cost":{"diamond":2, "ruby":2}},
+    {"vp": 0, "gem": "sapphire", "cost":{"emerald":2, "jet":2}},
+
+    {"vp": 0, "gem": "diamond", "cost":{"emerald":2, "jet":1, "ruby":1, "sapphire":1}},
+    {"vp": 0, "gem": "emerald", "cost":{"diamond":1, "jet":2, "ruby":1, "sapphire":1}},
+    {"vp": 0, "gem": "jet", "cost":{"diamond":1, "emerald":1, "ruby":1, "sapphire":2}},
+    {"vp": 0, "gem": "ruby", "cost":{"diamond":2, "emerald":1, "jet":1, "sapphire":1}},
+    {"vp": 0, "gem": "sapphire", "cost":{"diamond":1, "emerald":1, "jet":1, "ruby":2}},
+
+    {"vp": 0, "gem": "diamond", "cost":{"jet":1, "ruby":2}},
+    {"vp": 0, "gem": "emerald", "cost":{"diamond":2, "sapphire":1}},
+    {"vp": 0, "gem": "jet", "cost":{"emerald":2, "ruby":1}},
+    {"vp": 0, "gem": "ruby", "cost":{"emerald":1, "sapphire":2}},
+    {"vp": 0, "gem": "sapphire", "cost":{"diamond":1, "jet":2}},
+
+    {"vp": 0, "gem": "diamond", "cost":{"sapphire":3}},
+    {"vp": 0, "gem": "emerald", "cost":{"ruby":3}},
+    {"vp": 0, "gem": "jet", "cost":{"emerald":3}},
+    {"vp": 0, "gem": "ruby", "cost":{"diamond":3}},
+    {"vp": 0, "gem": "sapphire", "cost":{"jet":3}},
+
+    {"vp": 0, "gem": "diamond", "cost":{"diamond":3, "jet":1, "sapphire":1}},
+    {"vp": 0, "gem": "emerald", "cost":{"diamond":1, "emerald":1, "sapphire":3}},
+    {"vp": 0, "gem": "jet", "cost":{"emerald":1, "jet":1, "ruby":3}},
+    {"vp": 0, "gem": "ruby", "cost":{"diamond":1, "jet":3, "ruby":1}},
+    {"vp": 0, "gem": "sapphire", "cost":{"emerald":3, "ruby":1, "sapphire":1}},
+
+    {"vp": 1, "gem": "diamond", "cost":{"emerald":4}},
+    {"vp": 1, "gem": "emerald", "cost":{"jet":4}},
+    {"vp": 1, "gem": "jet", "cost":{"sapphire":4}},
+    {"vp": 1, "gem": "ruby", "cost":{"diamond":4}},
+    {"vp": 1, "gem": "sapphire", "cost":{"ruby":4}}
+
+]}

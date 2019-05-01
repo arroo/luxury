@@ -1,0 +1,13 @@
+{"nobles":[
+    {"vp": 3,"gems":{"diamond":4, "jet":4}},
+    {"vp": 3,"gems":{"diamond":4, "sapphire":4}},
+    {"vp": 3,"gems":{"emerald":4, "ruby":4}},
+    {"vp": 3,"gems":{"emerald":4, "sapphire":4}},
+    {"vp": 3,"gems":{"jet":4, "ruby":4}},
+
+    {"vp": 3,"gems":{"diamond":3, "emerald":3, "sapphire":3}},
+    {"vp": 3,"gems":{"diamond":3, "jet":3, "ruby":3}},
+    {"vp": 3,"gems":{"diamond":3, "jet":3, "sapphire":3}},
+    {"vp": 3,"gems":{"emerald":3, "jet":3, "ruby":3}},
+    {"vp": 3,"gems":{"emerald":3, "ruby":3, "sapphire":3}}
+]}

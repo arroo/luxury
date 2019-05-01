@@ -1,7 +1,0 @@
-{"cards":[
-    {"vp": 0, "gem": "diamond", "cost":{"emerald":1, "jet":1, "ruby":1, "sapphire":1}},
-    {"vp": 0, "gem": "emerald", "cost":{"diamond":1, "jet":1, "ruby":1, "sapphire":1}},
-    {"vp": 0, "gem": "jet", "cost":{"diamond":1, "emerald":1, "ruby":1, "sapphire":1}},
-    {"vp": 0, "gem": "ruby", "cost":{"diamond":1, "emerald":1, "jet":1, "sapphire":1}},
-    {"vp": 0, "gem": "sapphire", "cost":{"diamond":1, "emerald":1, "jet":1, "ruby":1}}
-]}

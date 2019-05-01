@@ -1,0 +1,39 @@
+{"cards":[
+
+    {"vp": 1, "gem": "diamond", "cost":{"emerald":3, "jet":2, "ruby":2}},
+    {"vp": 1, "gem": "emerald", "cost":{"diamond":2, "jet":2, "sapphire":3}},
+    {"vp": 1, "gem": "jet", "cost":{"diamond":3, "emerald":2, "sapphire":2}},
+    {"vp": 1, "gem": "ruby", "cost":{"diamond":2, "jet":3, "ruby":2}},
+    {"vp": 1, "gem": "sapphire", "cost":{"emerald":2, "ruby":2, "sapphire":2}},
+
+    {"vp": 1, "gem": "diamond", "cost":{"diamond":2, "ruby":3, "sapphire":3}},
+    {"vp": 1, "gem": "emerald", "cost":{"diamond":3, "emerald":2, "ruby":3}},
+    {"vp": 1, "gem": "jet", "cost":{"diamond":3, "emerald":3, "jet":2}},
+    {"vp": 1, "gem": "ruby", "cost":{"jet":3, "ruby":2, "sapphire":3}},
+    {"vp": 1, "gem": "sapphire", "cost":{"emerald":3, "jet":3, "sapphire": 2}},
+
+    {"vp": 2, "gem": "diamond", "cost":{"ruby":5}},
+    {"vp": 2, "gem": "emerald", "cost":{"emerald":5}},
+    {"vp": 2, "gem": "jet", "cost":{"diamond":5}},
+    {"vp": 2, "gem": "ruby", "cost":{"jet":5}},
+    {"vp": 2, "gem": "sapphire", "cost":{"sapphire":5}},
+
+    {"vp": 2, "gem": "diamond", "cost":{"jet":3, "ruby":5}},
+    {"vp": 2, "gem": "emerald", "cost":{"emerald":3, "sapphire":5}},
+    {"vp": 2, "gem": "jet", "cost":{"emerald":5, "ruby":3}},
+    {"vp": 2, "gem": "ruby", "cost":{"diamond":3, "jet":5}},
+    {"vp": 2, "gem": "sapphire", "cost":{"diamond":5, "sapphire":3}},
+
+    {"vp": 2, "gem": "diamond", "cost": {"emerald":1, "jet":2, "ruby":4}},
+    {"vp": 2, "gem": "emerald", "cost": {"diamond":4, "jet":1, "sapphire":2}},
+    {"vp": 2, "gem": "jet", "cost": {"emerald":4, "ruby":2, "sapphire":1}},
+    {"vp": 2, "gem": "ruby", "cost": {"diamond":1, "emerald":2, "sapphire":4}},
+    {"vp": 2, "gem": "sapphire", "cost": {"diamond":2, "jet":4, "ruby":1}},
+
+    {"vp": 3, "gem": "diamond", "cost":{"diamond":6}},
+    {"vp": 3, "gem": "emerald", "cost":{"emerald":6}},
+    {"vp": 3, "gem": "jet", "cost":{"jet":6}},
+    {"vp": 3, "gem": "ruby", "cost":{"ruby":6}},
+    {"vp": 3, "gem": "sapphire", "cost":{"sapphire":6}}
+
+]}
