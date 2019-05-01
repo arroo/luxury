@@ -67,18 +67,14 @@ func (p *Player) Deduct(cost map[Gem]int) (map[Gem]int, error) {
 	return payment, nil
 }
 
-func appendCard(arr *[]Card, card Card) {
-	*arr = append(*arr, card)
-}
-
 // GiveCard gives a player a card
 func (p *Player) GiveCard(card Card) {
-	appendCard(&p.Cards, card)
+	p.Cards = append(p.Cards, card)
 }
 
 // ReserveCard gives a player a card in reserve and gems
 func (p *Player) ReserveCard(card Card, gems map[Gem]int) {
-	appendCard(&p.Hand, card)
+	p.Hand = append(p.Hand, card)
 
 	p.GiveGems(gems)
 }
