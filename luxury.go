@@ -8,16 +8,18 @@ import (
 
 func main() {
 
-	tier1, err := getDeck("tier1.json")
-	if err != nil {
-		fmt.Printf("error decking: %v", err)
+	for i := 1; i < 4; i++ {
+		tier, err := getDeck(fmt.Sprintf("cards/tier%d.json", i))
+		if err != nil {
+			fmt.Printf("error decking: %v", err)
 
-		return
+			return
+		}
+
+		fmt.Printf("\ncards tier%d: %v\n", i, tier)
 	}
 
-	fmt.Printf("cards: %v\n", tier1)
-
-	nobles, err := getNobles("nobles.json")
+	nobles, err := getNobles("nobles/nobles.json")
 	if err != nil {
 		fmt.Printf("error nobling: %v", err)
 
