@@ -96,43 +96,17 @@ turn:
 }
 
 // BoardState ...
-type BoardState struct{}
-
-// Move ...
-// possible moves:
-// pick up 3 gems
-// pick up 2 gems
-// reserve visible card & gold gem
-// reserve top of deck card & gold gem
-// buy card from hand
-// buy card on field
-
-// MoveType ...
-type MoveType int
-
-const (
-	getGems MoveType = iota
-	reserveCard
-	buyCard
-)
-
-// Move ...
-// possible moves:
-// pick up (3 different / 2 same) gems
-// reserve (visible or top of deck) card & gold gem
-// buy card from (hand / field)
-type Move struct {
-	Type        MoveType
-	DeltaGems   map[Gem]int
-	ReserveCard *Card
-	BuyCard     *Card
-}
-
-// PlayerChans ...
-type PlayerChans struct {
-	mc  chan Move
-	bsc chan BoardState
+type BoardState struct {
+	Players      []Player
+	Nobles       []Noble
+	VisibleCards [][]Card
 }
 
 // StartWithChans ...
-func (g *Game) StartWithChans(p []chan Move) {}
+func (g *Game) StartWithChans(p []chan Mover) {
+	g.shuffle()
+
+	rand.Shuffle(len(p), func(i, j int) {
+		p[i], p[j] = p[j], p[i]
+	})
+}
