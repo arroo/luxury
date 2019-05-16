@@ -2,7 +2,7 @@ package main
 
 // Mover ...
 type Mover interface {
-	Move()
+	Move(*Game) *Game
 }
 
 // GrabGems ...
@@ -12,7 +12,9 @@ type GrabGems struct {
 }
 
 // Move ...
-func (m *GrabGems) Move() {}
+func (m *GrabGems) Move(g *Game) *Game {
+	return g
+}
 
 // Valid ...
 func (m *GrabGems) Valid() bool { return true }
@@ -24,7 +26,9 @@ type ReserveCard struct {
 }
 
 // Move ...
-func (m *ReserveCard) Move() {}
+func (m *ReserveCard) Move(g *Game) *Game {
+	return g
+}
 
 // Valid ...
 func (m *ReserveCard) Valid() bool { return true }
@@ -36,7 +40,9 @@ type BuyCard struct {
 }
 
 // Move ...
-func (m *BuyCard) Move() {}
+func (m *BuyCard) Move(g *Game) *Game {
+	return g
+}
 
 // Valid ...
 func (m *BuyCard) Valid() bool { return true }
